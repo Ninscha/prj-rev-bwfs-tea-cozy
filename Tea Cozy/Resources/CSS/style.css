@@ -1,0 +1,183 @@
+/* Universal Styles */
+
+* {
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+  background-color: black;
+}
+
+
+/* Header */
+
+header {
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  background-color: black;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding-left: 10px;
+}
+
+.logo img {
+  color: seashell;
+  height: 50px;
+  padding-right: 120px;
+}
+
+header nav {
+  padding-right: 40px;
+  font-size: 22px;
+}
+
+nav a {
+	text-decoration: underline;
+  margin: 10px;
+}
+
+a{
+	color: seashell;
+}
+
+/* Body */
+
+}
+body {
+  color: seashell;
+  opacity: 0.9;
+  justify-content: center;
+}
+
+/* Main Content Container */
+
+/* Main */
+
+.Maincontainer {
+  display: flex;
+  margin: 0 auto 78px auto;
+  padding-top: 69px;
+  flex-direction: column;
+  align-items: center;
+  font-size: 22px;
+}
+
+/* Mission */
+
+.Mission {
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+}
+
+.Textbox {
+   background-color: black;
+   text-align: center;
+}
+
+.Mission .Textbox {
+  width: 1200px;
+}
+
+/* Tea of the Month */
+
+.Tea-Of-The-Month {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Tea-Of-The-Month .textcenter {
+  width: 1000px;
+}
+
+.Image-Content {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    justify-content: center;  
+    background-size: contain;
+}
+
+.BerryBlitz.Image-Content {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-berryblitz.jpg");
+}
+
+.RumTea.Image-Content {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-spiced-rum.jpg");
+}
+
+.Donuts.Image-Content{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-donut.jpg");
+}
+
+.MyrtleAve.Image-Content {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-myrtle-ave.jpg");
+}
+
+.Bizarre.Image-Content {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-bedford-bizarre.jpg");
+}
+
+/* Locations */
+
+.Locations {
+  display: flex;
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  justify-content: center;
+  align-content: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.Locations .Textbox {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-content: space-between;
+  width: 300px;
+  height: auto;
+  margin: 15px 40px; 
+  opacity: 1;
+}
+
+.Locations span{
+  margin: 1em;
+}
+
+.Locations h2 {
+  width: 1000px;
+  margin-bottom: 0px;
+  background-color: transparent;
+}
+
+/* Contact */
+
+.Contact {
+  text-align: center;
+}
+
+/* Footer */
+
+footer {
+  text-align: left;
+  margin-left: 20px;
+}
+
